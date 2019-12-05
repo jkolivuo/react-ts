@@ -1,0 +1,21 @@
+.listItem {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #dcdcdc;
+    border-radius: 4px;
+    margin-right: 10vh;
+}
+.checkbox:hover {
+    cursor: pointer;
+}
+
+.checked {
+    background: blue;
+}
